@@ -1,27 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import PokedexHeader from './components/PokedexHeader.js';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Hello, World! My name is Byron!
-        </h1>
-        <p>
-          ;)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PokedexHeader author="@yuh_eli" name= "Byron's"/>
     </div>
   );
 }
